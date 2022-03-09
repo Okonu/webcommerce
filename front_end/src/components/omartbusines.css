@@ -1,0 +1,58 @@
+.omartBusinesses {
+    display: flex;
+    justify-content: space-between;
+  }
+  .business {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(84, 211, 72);
+    margin: 10px;
+  }
+  
+  .business span {
+    font-weight: 500;
+    font-size: 13px;
+    margin: 5px;
+  }
+  .business_image {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 8px;
+  }
+  @media (max-width: 378px) {
+    .off {
+      display: none;
+    }
+  
+    .omartBusinesses {
+      flex-wrap: wrap;
+      max-width: 350px;
+      margin: auto auto;
+      margin-left: 1.2rem;
+    }
+    .omartBusinesses > * {
+      flex: 1;
+    }
+    .category_icons {
+      height: 10px;
+      width: 1px;
+    }
+    .category_items {
+      display: flex;
+      margin: 5px;
+    }
+  }
+  @media (max-width: 468px) {
+    .omartBusinesses {
+      flex-wrap: wrap;
+      max-width: 350px;
+      margin: auto auto;
+      margin-left: 1.2rem;
+    }
+    .omartBusinesses > * {
+      flex: 1 1 30%;
+    }
+  }
+  

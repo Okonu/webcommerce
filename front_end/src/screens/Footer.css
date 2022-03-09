@@ -1,0 +1,49 @@
+.main-footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #203040;
+  }
+.rowbottom .list-none{
+    justify-content: space-evenly;
+    display: flex;
+     flex-direction: row;
+   align-items: center;
+  }
+  li{    
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+  }
+  .list-none ul li{
+  color: #ffffff;
+}
+
+.list-none li:hover{
+  color: #b0b435;
+}
+h4{
+  font-size:30px;
+}
+.rowfooter {
+  display: flex;
+  justify-content: center;
+  }
+
+  @media screen and (max-width: 640px){
+    .rowbottom {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+    }
+    .list-none li{
+      cursor: pointer;
+      font-size: 10px;
+    }
+    h4{
+      font-size:12px;
+    }
+    col{
+      width:100%;
+    }
+  }

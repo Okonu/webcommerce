@@ -1,0 +1,25 @@
+.containerbuy{
+    box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 2px;
+	overflow: hidden;
+	margin: 2em auto;
+	height:1200px;
+}
+.product-details {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+	position: relative;
+	text-align: top;
+	overflow: hidden;
+	padding: 10px;
+	float: top;
+	width: 90%;
+    height:500px;
+}
+.productimage{
+    height:230px;
+    max-width:280px;
+}

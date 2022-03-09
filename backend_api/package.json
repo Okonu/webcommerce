@@ -1,0 +1,38 @@
+{
+  "name": "omart",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Omart Kenya",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jacob-d242/Omartkenya2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@github.com:jacob-d242/Omartkenya2021.git"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "git@github.com:jacob-d242/Omartkenya2021.git",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
