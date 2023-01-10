@@ -46,7 +46,6 @@ app.get('/', (req, res) => {
 });
 
 // production only
-
 if (process.env.NODE_ENV === 'production') {
  app.use(express.static('frontend/build'));
 
@@ -54,10 +53,6 @@ if (process.env.NODE_ENV === 'production') {
    res.sendFile(path.resolve(__dirname, 'frontend','build', 'index.html'));
  });
 }
-
-
-
-
 
 
 // app.get('/', (req, res) => {
@@ -146,6 +141,7 @@ httpServer.listen(port, () => {
   console.log(`Serve at http://localhost:${port}`);
 });
 
-// app.listen(port, () => {
-//   console.log(`Serve at http://localhost:${port}`);
-// });
+//changes I made
+app.listen(port, () => {
+  console.log(`Serve at http://localhost:${port}`);
+});
