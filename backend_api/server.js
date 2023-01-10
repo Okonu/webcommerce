@@ -140,8 +140,3 @@ io.on('connection', (socket) => {
 httpServer.listen(port, () => {
   console.log(`Serve at http://localhost:${port}`);
 });
-
-//changes I made
-app.listen(port, () => {
-  console.log(`Serve at http://localhost:${port}`);
-});
