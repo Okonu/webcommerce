@@ -42,7 +42,7 @@ app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
 );
 app.get('/', (req, res) => {
-  res.send('omartke')
+  res.send('webcomerce')
 });
 
 // production only
@@ -129,7 +129,7 @@ io.on('connection', (socket) => {
         user.messages.push(message);
       } else {
         io.to(socket.id).emit('message', {
-          name: 'OmartKe',
+          name: 'WebcCommerce',
           body: 'Sorry. We are not online right now',
         });
       }
