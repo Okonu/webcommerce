@@ -13,7 +13,7 @@ export default function ChatBox(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [messageBody, setMessageBody] = useState('');
   const [messages, setMessages] = useState([
-    { name: 'OmartKenya', body: 'Hello there, Please ask your question.' },
+    { name: 'WebCommerce', body: 'Hello there, Please ask your question.' },
   ]);
 
   useEffect(() => {

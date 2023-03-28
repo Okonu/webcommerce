@@ -1,25 +1,25 @@
 {
-  "name": "omart",
+  "name": "webcommerce",
   "type": "module",
   "version": "1.0.0",
-  "description": "Omart Kenya",
+  "description": "WebCommerce",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jacob-d242/Omartkenya2021.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "git@github.com:jacob-d242/Omartkenya2021.git"
+    "url": ""
   },
   "engines": {
     "node": "10.x"
   },
-  "homepage": "git@github.com:jacob-d242/Omartkenya2021.git",
+  "homepage": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

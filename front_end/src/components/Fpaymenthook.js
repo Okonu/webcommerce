@@ -16,7 +16,7 @@ export default function App() {
     customizations: {
       title: 'my Payment Title',
       description: 'Payment for items in cart',
-      logo: '' alt="omartkenya",
+      logo: '' alt="WebCommerce",
     },
   };
 
